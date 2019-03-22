@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <h1>Welcome to Registration Page</h1>
+        <div class="container colour">
+                <form action="/action_page.php">
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname"  placeholder="First Name" >
+              
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Last Name">
+
+                  <label for="Last-name"><b>Date of Birth</b></label>
+                <input type="text" placeholder="DOB" name="dob" required><br>
+
+                <label for="Gender"><b>Gender</b></label>
+         <input type="radio" name="gender" value="male"> Male <input type="radio" name="gender" value="female"> Female  <input type="radio" name="gender" value="other"> Other<br><br>
+
+                  <label for="email">Email</label>
+                  <input type="text" id="em" name="email" placeholder="Username   @gmail.com">
+
+                  <p>You can use letters,Numbers,and Periods</p>
+    
+                  <label for="psw"><b>Password</b></label>
+                  <input type="password" placeholder="Password" name="psw" required>
+              
+                  <label for="psw-Confirm"><b>Confirm Password</b></label>
+                  <input type="password" placeholder="Confirm Password" name="psw-Confirm" required><br><br>
+              
+                  <label for="country">Country</label>
+                  <select id="country" name="country">
+                        <option value="select">select</option>
+                    <option value="india">India</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                  </select>
+                
+                  <input type="submit" value="Submit"><br>
+
+                  <a href="login.html">If Already exits</a>
+                </form>
+              </div>
+</body>
+</html>
