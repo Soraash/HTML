@@ -7,21 +7,26 @@
     <title>LOGIN PAGE</title>
     <style>
     .colour{
-        background-color: rgb(71, 199, 158);
+        background-color: rgb(212, 137, 25);
         text-emphasis-color:rgba(185, 79, 79, 0);
         text-align: center;
         margin: 30px;
         
     }
+   .h1{
+       text-decoration: white;
+
+    }
+    .label.required { color: red; }
     </style>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
-<body class="colour">
+<body  background="bg1.jpg" class="colour">
         
-    <h1 class="colour">Welcome To Login Page</h1><br><br><br>
+    <h1>Welcome To Login Page</h1><br><br><br>
     <div class="colour">
         <div class="container"><br>
-                <label for="uname"><b>Username</b></label>
+                <label  class="required" for="uname"><b>Username</b></label>
                 <input type="text" placeholder="Enter Username" name="uname" size="35" required><br>
             
                 <label for="psw"><b>Password</b></label>
